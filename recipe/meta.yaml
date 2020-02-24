@@ -1,5 +1,5 @@
 {% set name = "pyftdi" %}
-{% set version = "0.29.0" %}
+{% set version = "0.44.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3b5fedfc81fc195fcc14bfa45aefaca0cd7a98f563aa0fcf60a8a9cdc18ea62d
+  sha256: b8af235642efbe0e1cd501526ff264fa603deb12995f5025d9e1bc2eafe569a2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: LGPL v2
   license_family: LGPL
   license_file: LICENSE.txt
-  summary: 'FTDI device driver written in pure Python'
+  summary: FTDI device driver written in pure Python
   description: |
     PyFtdi aims at providing a user-space driver for modern FTDI devices,
     implemented in pure Python language.
