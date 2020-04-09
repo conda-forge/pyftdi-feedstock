@@ -1,5 +1,5 @@
 {% set name = "pyftdi" %}
-{% set version = "0.44.0" %}
+{% set version = "0.44.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 958911cc67c0ee7a5df0d013202c79d90f2bd2fa1ac546f77982b407d5decff4
+  sha256: 737c8520b812a4aa20b9f875999489b8a37319c1b1369ef52b9527f98b63fdf7
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'FTDI device driver written in pure Python'
+  summary: FTDI device driver written in pure Python
   description: |
     PyFtdi aims at providing a user-space driver for modern FTDI devices,
     implemented in pure Python language.
