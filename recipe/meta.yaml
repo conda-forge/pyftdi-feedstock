@@ -1,5 +1,5 @@
 {% set name = "pyftdi" %}
-{% set version = "0.29.0" %}
+{% set version = "0.29.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3b5fedfc81fc195fcc14bfa45aefaca0cd7a98f563aa0fcf60a8a9cdc18ea62d
+  sha256: 43b8e69e5a05902b8f9a5bc0d2d355353f9cb318c158e0a3776581db7486e67c
 
 build:
   noarch: python
