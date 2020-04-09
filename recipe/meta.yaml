@@ -29,9 +29,9 @@ test:
 
 about:
   home: https://github.com/eblot/pyftdi
-  license: LGPL v2
-  license_family: LGPL
-  license_file: LICENSE.txt
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
   summary: 'FTDI device driver written in pure Python'
   description: |
     PyFtdi aims at providing a user-space driver for modern FTDI devices,
