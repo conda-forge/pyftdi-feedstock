@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/eblot/pyftdi
-  license: LGPL v2
+  license: LGPL-2.0-only
   license_family: LGPL
   license_file: LICENSE.txt
   summary: 'FTDI device driver written in pure Python'
