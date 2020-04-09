@@ -3,7 +3,7 @@ About pyftdi
 
 Home: https://github.com/eblot/pyftdi
 
-Package license: LGPL v2
+Package license: LGPL-2.0-only
 
 Feedstock license: BSD 3-Clause
 
