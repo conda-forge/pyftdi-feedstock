@@ -5,9 +5,13 @@ Home: https://github.com/eblot/pyftdi
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyftdi-feedstock/blob/master/LICENSE.txt)
 
 Summary: FTDI device driver written in pure Python
+
+Development: https://github.com/eblot/pyftdi
+
+Documentation: http://eblot.github.io/pyftdi/
 
 PyFtdi aims at providing a user-space driver for modern FTDI devices,
 implemented in pure Python language.
